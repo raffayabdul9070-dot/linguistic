@@ -1,0 +1,49 @@
+{
+  "name": "geo-linguistic-survey-pakistan",
+  "version": "1.0.0",
+  "description": "Comprehensive Geo-Linguistic Survey Platform for documenting languages across Pakistan",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve:standalone": "npx http-server public -p 8080"
+  },
+  "keywords": [
+    "linguistic-survey",
+    "pakistan",
+    "language-documentation",
+    "survey-platform",
+    "field-research",
+    "urdu",
+    "speech-recognition"
+  ],
+  "author": "Centre for Languages and Translation Studies (CeLTS), AIOU",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.19"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
